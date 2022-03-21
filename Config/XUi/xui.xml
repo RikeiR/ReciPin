@@ -1,0 +1,11 @@
+<configs>
+
+<!-- レシピをピン留めするコマンドを追加-->
+
+	<append xpath="/xui/ruleset[@name='default']">
+		<window_group name="ReciPin" actionSet="false" controller="XUiC_PinRecipes, PinRecipes">
+			<window name="windowReciPin" />
+		</window_group>
+	</append>
+
+</configs>
